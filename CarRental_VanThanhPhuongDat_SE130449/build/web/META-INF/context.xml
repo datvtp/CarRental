@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/CarRental_VanThanhPhuongDat_SE130449">
+    <Resource name="DBCon" auth="Container" type="javax.sql.DataSource"
+                username="sa" password="1"
+                driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                url="jdbc:sqlserver://localhost\\sqlexpress:1433;database=Car"
+                maxActive="8" maxIdle="4"/>
+</Context>
